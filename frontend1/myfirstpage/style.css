@@ -1,0 +1,76 @@
+body{
+  background-color: #488ccd;
+  width: 800px;
+  padding: 50px; /*arrébb vitte 50 pixellel a bodyt*/
+  margin: 0 auto;
+  /*
+  akkor van értelme ha van beállítva fix szélesség beállítva 
+  *ha kettő érték van megadva a marginnak vagy paddingnak akkor az első *érték alul-felül, a második érték jobbra balra vonatkozik*/
+  
+  font-family: 'Montserrat', sans-serif;
+  color: white
+  /*ezek a css propertyk öröklődnek lefele e bodyn belüli elemekre*/
+}
+
+.page-title {
+  /* color :white már öröklödik */ 
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* ha így adjuk meg az óramutató járásával megegyező irányban kell gondolkodni, felül, jobbra,lent, balra*/
+  margin: 40px 0 40px 0;
+}
+
+.main-menu {
+  background-color: #284c80;
+  padding: 0;
+  list-style: none;
+}
+
+
+.main-menu-item{
+  display: inline; /*hogy a menüpontok egymás mellé kerüljenek*/
+}
+
+.main-menu-item a {
+  color: rgb(188,248,255);
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 20px 0;
+  /*reagálni fog a magasság változtatásra de nem lesz teljes szélességű*/
+  display: inline-block;
+}
+
+.main-menu-item a:hover{ /* ha rávisszük az egeret aláhúzza*/
+  color: white;
+  text-decoration: underline;
+}
+
+.created-date {
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #284c80;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* vesszővel elválasztva több elemet is kiválaszthatunk*/
+.content-lead, .content-body{
+  line-height: 1.7;
+}
+
+.content-lead{
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.content-body{
+  font-size: 18px;
+}
+
+content-image-container {
+  /* az inline elemeket text align fogja középre igazítani*/
+  text-align: center;
+}
+

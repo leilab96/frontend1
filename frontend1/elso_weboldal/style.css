@@ -1,0 +1,19 @@
+
+.red-box {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+.rounded {
+    border-radius: 50px;
+}
+
+div {
+    margin: 20px;
+    font-size: 60px;
+}
+
+#C12 {
+    font-style: italic !important;
+}
